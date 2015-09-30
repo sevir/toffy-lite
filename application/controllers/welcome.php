@@ -37,6 +37,29 @@ class Welcome extends CI_Controller {
 			var_dump($this->fastcache->get('result'));
 		}
 	}
+
+	public function testwordpress(){
+		$args = array(
+			'sort_order' => 'asc',
+			'sort_column' => 'post_title',
+			'hierarchical' => 1,
+			'exclude' => '',
+			'include' => '',
+			'meta_key' => '',
+			'meta_value' => '',
+			'authors' => '',
+			'child_of' => 0,
+			'parent' => -1,
+			'exclude_tree' => '',
+			'number' => '',
+			'offset' => 0,
+			'post_type' => 'page',
+			'post_status' => 'publish'
+		); 
+		$pages = get_pages($args); 
+
+		var_dump($pages);
+	}
 }
 
 /* End of file welcome.php */

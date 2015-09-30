@@ -13,5 +13,12 @@
  */
 define('WP_USE_THEMES', true);
 
+define('ROOT', dirname(__FILE__));
+define('COMPOSERPATH', ROOT.'/../vendor/');
+/*
+ * Composer autoload
+ */
+require_once COMPOSERPATH.'/autoload.php';
+
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );

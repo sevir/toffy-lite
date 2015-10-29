@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'toffylite');
+define('DB_NAME', 'toffy-lite');
 
 /** MySQL database username */
-define('DB_USER', 'toffylite');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'toffylite');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '*+[-+SiHtD5]-1Y]^EH*+:~@{?e9niC&ZSfyE,@ns]XNLx@q`X},$83]>2MOa~9X');
-define('SECURE_AUTH_KEY',  '4uu6?s!eB|}.TEN+.ITd>4E@Y:wFVtbZK@gRwJ#vD.6U39BRMT-fQFejJmkW)Psc');
-define('LOGGED_IN_KEY',    'BFZsf|i=|$2G~y1H[bJ3d6~91ST.WGUbI8T/TvV|t+|N[&1-7fmr4+k-E!zz;6)g');
-define('NONCE_KEY',        'M8p-XN=%eZ)_E4v:I^}3~nK$fsD!TU}R?F.?0=>13#U{_qG94+ZYB]$HD59`{=l)');
-define('AUTH_SALT',        '@NgNnxGG-:MyGKpVk3EM<.ycC>m+}d{PmQ7,4|kaF4#w6u9& +eR8/P$U]hS>N|,');
-define('SECURE_AUTH_SALT', '-SkufP&Ca.eAb X3}H{|Zzi.N/_K*bL4ZkR^uv*Xp+.cLoH_r/x/hnw_DgSbZinW');
-define('LOGGED_IN_SALT',   '4~&^ka;B[>.X{Dz*Qqn.?Xp_?ms|XMI;$B}~[jB: ,$u}gi1  23 ;?%:*U P30o');
-define('NONCE_SALT',       'ZRla|46gdF-y`|aiyMkOc Cg*>=(.,JSy@#=Z@^J6+GFs0s}(VQ67aqTNkedqv y');
+define('AUTH_KEY',         '/X%ol;0rdpX3C,N!TeU6s#0;p*3K>4hxY+e5;{G]f/=eheLPv_o0-qwXG+UUW~ua');
+define('SECURE_AUTH_KEY',  '@?+NyLbOGdd0tn8zD~Z|9,=p/8#iR_a-<]kb)baeq#,KK`C|`)z:{V*v5+<,-|CD');
+define('LOGGED_IN_KEY',    'G&WrYD@(c:z{TY+x-[]02^C1|D CFV#(B=Qn|FYFjfG7OM2lNu%C]r<XpL7}nEkW');
+define('NONCE_KEY',        'Qa2`EF Ui9I#!ieVFv0J+$%)Ga,T3qhhAxH*-q-rKb}vJ9W8$C${Z=qzgSh<P2g]');
+define('AUTH_SALT',        'Mpy?_UR3z>H1,NEY|u<0zi-9{]8:<@;jH=DLg1HZW3=1{FIH> CBIgzMTaEF!o8W');
+define('SECURE_AUTH_SALT', 'Fj300]^-:bkjmAr7-q<(qEUiV|S5aa<3ExbD@J%-#);Kg$LFaK;$Z{4SrOI8~fcH');
+define('LOGGED_IN_SALT',   'pDd&Wfw5a*0l>$l[h<dD*?o0yOLrrfK)tTP)V-iulf|uR|zc!#jLGAG`>QV[TGIw');
+define('NONCE_SALT',       'dy>BqHS@!MIeA$X|bR &|sq#&Igg-N&y5l|P5~FYv<|>.q.n5F[g-]J2=|-R+[2M');
 
 /**#@-*/
 
